@@ -1,5 +1,0 @@
-zuul.prefix: "/api"
-zuul.ignored-services: "*"
-zuul.routes.organizationservice: "/organization/**"
-zuul.routes.licensingservice: "/licensing/**"
-hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 2500
